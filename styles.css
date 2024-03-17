@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #faf4f4;
+    color: #ff69b4; /* Color de las letras en tono rosa */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #000;
+    color: #ffffff; /* Color del texto en tono rojo */
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.recuerdo {
+    background-color: #020202;
+    border: 5px solid #0f0f0f; /* Marco blanco alrededor */
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.recuerdo h3 {
+    margin-bottom: 10px;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    max-width: 30%;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: rgb(238, 46, 164);
+    text-align: center;
+    padding: 10px 0;
+}
